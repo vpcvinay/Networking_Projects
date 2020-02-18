@@ -35,7 +35,7 @@ class graph_orientation:
 
     def construct_graph(self):
         if(self.all_connected==True):
-            self.graph = np.zeros((self.no_of_nodes,self.no_of_nodes))
+            self.graph = np.ones((self.no_of_nodes,self.no_of_nodes))*-1
             swap = {0:1,1:0}
             inverting = lambda t: swap[t]
             i,j = 0,0
