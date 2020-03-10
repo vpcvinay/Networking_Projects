@@ -71,7 +71,7 @@ class graph_orientation:
                     i+=1
                 j = int((l+(i+1)*(i+2)/2)%self.no_of_nodes)
                 if(self.link_state[l]==-1):
-                    self.graph[i][j],self.graph[j][i] = 0,0
+                    self.graph[i][j],self.graph[j][i] = -1,-1
                     continue
                 
                 self.update_graph(i,j,l)
