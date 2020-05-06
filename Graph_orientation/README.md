@@ -1,5 +1,5 @@
 ## Overview ##
-Graph orientation is an algorithm that calculates and assigns directional links to an undirected graph such that, the maximum outdegree of the graph is minimized. The algorithm take linear time complexity *O(n)* and *O(n<sup>2</sup>)* space complexity and works on complete or incomplete graphs. The correctness of the algorithm is demostrated by applying it to the complete and incomplete graphs and the output is verified.
+Graph orientation is an algorithm that calculates and assigns directional links to an undirected graph such that, the maximum outdegree of the graph is minimized. The algorithm take linear time complexity *O(N)* (where N is the total number of links) and *O(N<sup>2</sup>)* space complexity and works on complete or incomplete graphs. The correctness of the algorithm is demostrated by applying it to the complete and incomplete graphs and the output is verified.
 
 The module is written using Python 3.2 Jupyter Notebook environment.
 
