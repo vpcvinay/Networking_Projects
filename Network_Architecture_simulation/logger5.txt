@@ -1,0 +1,722 @@
+the message seding to neighbor is {3: ['X'], 6: ['X']}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {3: ['X'], 6: ['X']}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {3: ['X'], 6: ['X']}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {3: ['X'], 6: ['X']}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+
+Skipping the route path through the same node :['3']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+
+Skipping the route path through the same node :['3', '1']3
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '4', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+the final message to buffer is ['R', '5', '6', '7', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 3]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3]
+Checking the if condition ['3']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[3, 1]
+Checking the if condition ['3', '1']TrueFalse
+
+the final message to buffer is ['R', '5', '3', '1', '2', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '3', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}['X']
+the final message to buffer is ['R', '5', '6', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 6]
+the message seding to neighbor is {1: [3], 2: [3, 1], 3: ['X'], 4: [6], 6: ['X'], 7: [6]}[6]
+Checking the if condition ['6']TrueFalse
+
+
+Skipping the route path through the same node :['6']6
+
+
+
+
+[]

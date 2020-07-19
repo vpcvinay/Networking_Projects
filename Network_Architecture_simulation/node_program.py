@@ -38,7 +38,20 @@ class variables:
         for node in self.nghnode:
             self.route_table.update({node:['X']})
             
-        
+
+
+def logger(node, *msg):
+    filename = "logger" + str(node) + ".txt"
+    f_desc = file(filename, "a+")
+    for message in range(len(msg)):
+        if(len(msg[message])>1):
+            for ch in msg[message]:
+                f_desc.write(str(ch))
+
+            f_desc.write('\n')
+    f_desc.close()
+
+
 def byte_stuff(msg):
     message = ''
     for char in msg:
@@ -236,24 +249,49 @@ def network_receive_from_datalink(message):
             
 def network_route(snd_rcv,msg=0,dest=0,node_path_for=0):
     if snd_rcv=="send":
-        route_msg = []
         for dest_node in var_obj.nghnode:
             count = 0
             for node in var_obj.route_table:
                 count+=1
+                route_msg = []
                 path = var_obj.route_table[node]
+                logger(var_obj.self_id,("the message seding to neighbor is ",var_obj.route_table,path))
                 if path[0]=='X':
                     route_msg = ['R',str(var_obj.self_id),str(node)]
+
+                elif(path[0]=='INF'):
+                    #route_msg = ['R', str(var_obj.self_id)] + ['X' for _ in range(12 - len(route_msg) - 1)] + [str(node)]
+                    continue
+
+
                 else:
-                    path = list(map(str,path))
-                    route_msg = ['R',str(var_obj.self_id)]+path+[str(node)]
+                    path = list(map(str, path))
+                    logger(var_obj.self_id,("Checking the if condition ",path, path[0] in map(str, var_obj.nghnode), var_obj.route_table.get(int(path[0]))[0]=="INF", "\n"))
+                    if((path[0] in map(str, var_obj.nghnode)) and (var_obj.route_table.get(int(path[0]))[0]=="INF")):
+                        var_obj.route_table[node] = ["INF"]
+                        logger(var_obj.self_id, ("HITING the infinity check ", var_obj.route_table[node], "\n"))
+                        continue
+
+                    if (str(path[0]) == str(dest_node)):
+                        logger(var_obj.self_id, ("\n", "Skipping the route path through the same node :", path, dest_node, "\n"))
+                        #route_msg = ['R', str(var_obj.self_id)] + ['X' for _ in range(12-len(route_msg)-1)] + [str(node)]
+                        continue
+
+                    else:
+                        route_msg = ['R',str(var_obj.self_id)]+path+[str(node)]
+
                 for _ in range(12-len(route_msg)):
                     route_msg.append('X')
-                    
+
                 route_msg.append(dest_node)
+                logger(var_obj.self_id,("the final message to buffer is ", route_msg))
                 var_obj.output_buffer.append(route_msg)
-                
+
+        for dest_node in var_obj.nghnode:
+            var_obj.route_table[dest_node] = ['INF']
+
         #print "original route table is {} and number of route messages is {}".format(var_obj.route_table,count)
+
     elif snd_rcv=="recieve":
         route_msg = msg
         path = []
@@ -266,9 +304,12 @@ def network_route(snd_rcv,msg=0,dest=0,node_path_for=0):
             
             else:
                 path.append(int(ch))
-                
+
         #route_src = path[0]
         route_dst = path.pop(-1)
+        if(path[0] in var_obj.nghnode):
+            var_obj.route_table[path[0]]=['X']
+
         if route_dst == var_obj.self_id or (route_dst in var_obj.nghnode):
             pass
         
@@ -279,7 +320,12 @@ def network_route(snd_rcv,msg=0,dest=0,node_path_for=0):
             else:
                 if var_obj.route_table[route_dst]==None:
                     var_obj.route_table[route_dst]=path
-                    
+
+                elif(var_obj.route_table[route_dst][0]=="INF"):
+                    logger(var_obj.self_id,("\n", "updating the path ", route_dst, var_obj.route_table[route_dst]))
+                    var_obj.route_table[route_dst]=path
+                    logger(var_obj.self_id,("updated path ",route_dst,var_obj.route_table[route_dst],"\n\n"))
+
                 else:
                     prs_hops = len(var_obj.route_table[route_dst])
                     new_hops = len(path)
@@ -287,7 +333,24 @@ def network_route(snd_rcv,msg=0,dest=0,node_path_for=0):
                         var_obj.route_table[route_dst] = path
                         
     #print var_obj.temp
-    #print "output buffer ",var_obj.output_buffer            
+    #print "output buffer ",var_obj.output_buffer
+    elif(snd_rcv=="resend"):
+        if(var_obj.route_table.get(dest)):
+            if(var_obj.route_table.get(dest)=="X"):
+                route_msg = ['R',str(var_obj.self_id),str(dest)]
+
+            elif(var_obj.route_table.get(dest)!="INF"):
+                if(var_obj.route_table.get(dest)[0]==node_path_for):
+                    return
+
+                path = list(map(str,var_obj.route_table[dest]))
+                route_msg = ['R',str(var_obj.self_id)]+path+[str(dest)]
+
+            for _ in range(12 - len(route_msg)):
+                route_msg.append('X')
+
+            route_msg.append(node_path_for)
+            var_obj.output_buffer.append(route_msg)
 
 
 def datalink_receive_from_network(pck,ch_count,retransmit = False):
@@ -305,15 +368,18 @@ def datalink_receive_from_network(pck,ch_count,retransmit = False):
             else:
                 seq_no = "%02d" % var_obj.data_link_sq_num
                 var_obj.data_link_sq_num+=1
-                
+
+            var_obj.channel_buffer.update({ch_count: [pck, seq_no]})
             pck[6] = byte_stuff(pck[6])
             send_msg = ['F','data',str(ch_count),seq_no]+pck+['E']
             var_obj.channel[ch_count] = True
             var_obj.ack_timeout[int(ch_count)] = time.time()
-            var_obj.channel_buffer.update({ch_count:[pck,seq_no]})
             #print send_msg
             data_link_writer(src_id,dest_id,send_msg)
-            
+
+        elif var_obj.route_table.get(int(dest_id)) == ['INF']:
+            return False
+
         else:
             if retransmit:
                 seq_no = pck[-1]
@@ -456,9 +522,9 @@ def main(var_obj):
     ch_count = 0
     no_of_times_rt_sent = 0
     rTime = time.time()
-    network_route("send")
     var_obj.output_buffer = []
     failed_pcks = []
+    network_route("send")
     #print "in main function ",var_obj.position
     while (time.time()-str_time)<=var_obj.timeout:
         #time_count = time.time()
@@ -541,6 +607,7 @@ def main(var_obj):
         #print "spent Time is ",time.time()-str_time
         #print "The routing table at {} is {}".format(var_obj.self_id,var_obj.route_table)
         time.sleep(1)
+    logger(var_obj.self_id, ("\n\n\n",var_obj.output_buffer))
     transport_output_all_received()
     #print "number of times routes sent ",no_of_times_rt_sent
     #print "output buffer is {} ",var_obj.output_buffer

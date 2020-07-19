@@ -1,0 +1,1 @@
+From 1 received: Sending this message to the node 6 to test the rerouting in case of node failure. This is the test for node failure detection testing testing testing:
