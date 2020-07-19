@@ -1,6 +1,7 @@
-python node_program.py 0 40 3 "Message from node 0 to node 3 is Hello node 3, How are you:" 25 1 5 &
-python node_program.py 1 40 0 "Message from 1 to 0:" 25 0 2 &
-python node_program.py 2 40 2 1 3 &
-python node_program.py 3 40 3 2 4 &
-python node_program.py 4 40 4 3 5 &
-python node_program.py 5 40 0 "Message from 5 to 0:" 25 0 4&
+python node_program.py 1 80 6 "Sending this message to the node 6 to test the rerouting in case of node failure. This is the test for node failure detection testing testing testing:" 15 2 7 3 &
+python node_program.py 2 80 2 1 4 &
+python node_program.py 3 80 3 1 5 &
+python node_program.py 4 80 1 "Simple message for testing:" 10 2 6 &
+python node_program.py 5 80 5 3 6 &
+python node_program.py 6 80 6 4 5 7 &
+python node_program.py 7 20 7 1 6 &
