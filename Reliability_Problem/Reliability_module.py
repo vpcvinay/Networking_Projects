@@ -3,7 +3,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#%matplotlib
 
 # Create a list, which stores the Link condition 'up' or 'down'
 # Initially set the all the links state to 'down'
