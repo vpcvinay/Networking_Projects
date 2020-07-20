@@ -1,9 +1,6 @@
 
 # coding: utf-8
 
-# In[20]:
-
-
 # Name:  Vemali. Purna Chandra Vinay Kumar
 # net Id: pxv171630@utdallas.edu
 
@@ -207,10 +204,6 @@ py.legend(['sim'])
 py.xlabel('lambda')
 py.ylabel('Expectation')
 py.show()
-
-
-# In[ ]:
-
 
 
 
