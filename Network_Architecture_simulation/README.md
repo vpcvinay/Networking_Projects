@@ -1,8 +1,8 @@
-####Python Version
+#### Python Version
 
     --- Python 2.7
 
-####Description:
+#### Description:
 
 The Project aims at designing and implementing various layers of OSI
 layer model. A python process representing a node constructs a network 
@@ -17,7 +17,7 @@ files to communicate)._ Other functionalities of the node include,
 3) _shortest path detection_ to the destination,and
 4) _node failure detection_; rerouting the message, in case of node failure.
 
-#####Datalink Layer:
+##### Datalink Layer:
 
 The layer uses byte-stuffing(a.k.a byte insertion) to determine begin and end of
 the frame. The beginning is indicated with letter _F_, the end with _E_. The 
@@ -32,7 +32,7 @@ _F data x y \<netw layer message> E_
 
 where _x_ is the channel number and _y_ is the sequence number.
 
-#####Network Layer:
+##### Network Layer:
 
 There are two types of network layer messages, _data_ messages and _routing_ messages. 
 Data messages carry transport layer messages and are varying length. Routing messages 
@@ -53,7 +53,7 @@ _D d \<trans layer message>_
 
 _'d'_ is the destination id
 
-#####Transport Layer:
+##### Transport Layer:
 
 Transport layer messages are limited in size, and hence, if the string is bigger, then the
 string is divided into multiple transport messages.
