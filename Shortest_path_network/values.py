@@ -1,3 +1,4 @@
+# Generates data used to construct network
 
 from numpy import *
 

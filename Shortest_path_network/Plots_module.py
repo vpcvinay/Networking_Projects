@@ -1,3 +1,4 @@
+# Module that generates graphs
 
 import Main_module as mn 
 import matplotlib.pyplot as plt
