@@ -1,3 +1,5 @@
+# Exponential random number generator mpdule 
+
 import numpy as np
 
 # Generation of the uniform random sequence
