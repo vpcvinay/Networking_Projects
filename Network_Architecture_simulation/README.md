@@ -132,5 +132,21 @@ then the _main()_ function is then executed. The main function performs the foll
 3) inside the while loop, the main methods checks all the interface channels (text files) for incoming 
 messages which is performed by the method _datalink_receive_from_channel()_. This method receives two types
 of data, 
-    1) _'data'_ messages which are sent to the network layer, if the message is intended for the same node.
-     The method then responds with _ack_ message.```` 
+    1) _'data'_ messages which are sent to the network layer and if the message is intended for the same node
+    delivers it to the transport layer else sends to the detalink layer to forward the message. The method 
+    then responds with _'ack'_ message.
+    2) next the method then checks the output buffer to forward the messages to the defined destination through
+    the logical channel if the channel is vacant.
+    3) the method sends routing messages after every 5 secs.
+    4) if the _'ack' timeout_ exceeds on any chennel, then the corresponding channel is retransmitted.
+    
+4) finally _transport_output_all_received()_ is executed which outputs the received message to the text file.
+
+#### Router Information Protocol (RIP):
+
+When the process first initialized it constructs the routing table with neighbouring nodes as next hop destinations.
+the method _network_route( ... )_ sends or receives the routing messages. When the routing messages are forwarded to 
+all the neighbouring nodes for all the destinations, the method updates the routing table with neighbouring nodes unreachable.
+If the routing messages are heard from the neighboring nodes then the routing tables is updated as reachable for neighbour nodes.
+Additionally, the protocol implements **_Split-horizon_** rule to avoid count to infinity problem.
+

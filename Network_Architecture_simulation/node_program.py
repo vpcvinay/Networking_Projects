@@ -565,7 +565,8 @@ def main(var_obj):
                 if ch_count>=7:
                     ch_count = 0
                     break
-                   
+
+        # Generates and sends transport messages to the output buffer.
         while True:
             count = 0
             try:
@@ -581,7 +582,8 @@ def main(var_obj):
             except StopIteration:
                 break
             
-            
+
+        # sends routing messages
         if (time.time()-rTime)>=5:
             #print "rTime is {} and time.time()-rTime is {} ".format(rTime,time.time()-rTime)
             #print "sending route message at ",time.strftime("%H:%M:%S",time.gmtime())
@@ -589,7 +591,8 @@ def main(var_obj):
             #print "rTime is {} and time.time()-rTime is {} after update ".format(rTime,time.time()-rTime)
             no_of_times_rt_sent += 1
             network_route("send")
-            
+
+        # ack time out check and resend
         for chn_no in range(7):
             if (time.time()-var_obj.ack_timeout[chn_no])>=5 and var_obj.channel and var_obj.ack_timeout[chn_no]!=0:
                 #print "output_buffer before timeoout is ",var_obj.output_buffer
