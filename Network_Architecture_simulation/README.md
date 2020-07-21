@@ -1,8 +1,8 @@
-#### Python Version
+###### Python Version
 
-    --- Python 2.7
+       $ Python 2.7
 
-#### Description:
+#### DESCRIPTION
 
 The Project aims at designing and implementing various layers of OSI
 layer model. A python process representing a node constructs a network 
@@ -17,7 +17,17 @@ files to communicate)._ Other functionalities of the node include,
 3) _shortest path detection_ to the destination,and
 4) _node failure detection_; rerouting the message, in case of node failure.
 
-##### Datalink Layer:
+#### Physical Layer:
+
+The process communicates with other processes through _text files_ which
+represents communication channels. **_Concurrent channel protocol_** is used 
+to send messages to the other nodes.
+
+The text file _file0to1.txt_ is the channel used by the source node **_0_** to 
+send bytes to the destination node **_1_** and the _file1to0.txt_ is the channel
+used by the source node **_1_** to send bytes to the destination **_0_**.
+
+#### Datalink Layer:
 
 The layer uses byte-stuffing(a.k.a byte insertion) to determine begin and end of
 the frame. The beginning is indicated with letter _F_, the end with _E_. The 
@@ -32,7 +42,7 @@ _F data x y \<netw layer message> E_
 
 where _x_ is the channel number and _y_ is the sequence number.
 
-##### Network Layer:
+#### Network Layer:
 
 There are two types of network layer messages, _data_ messages and _routing_ messages. 
 Data messages carry transport layer messages and are varying length. Routing messages 
@@ -53,7 +63,7 @@ _D d \<trans layer message>_
 
 _'d'_ is the destination id
 
-##### Transport Layer:
+#### Transport Layer:
 
 Transport layer messages are limited in size, and hence, if the string is bigger, then the
 string is divided into multiple transport messages.
@@ -80,3 +90,47 @@ The transport layer cannot send its messages until enough time has elapsed, whic
 the arguments of the program.
 
 
+#### INSTRUCTIONS
+Python2 is used to develop the script. The instructions to run the script is as follows:
+
+The python process acts as a router and a node or both depending on the running instructions.
+The shell script _run.sh_ contains instructions that runs the program as a background process.
+
+```python
+   $ python node_program.py 1 80 6 "Message to send to destination" 15 2 7 3 &
+```
+
+The above instruction run python process as a node. 
+1) the first argument _1_ defines its _node-id_ and the third argument _6_ defines the _destination
+   node-id_ that the source _1_ is trying to send the message _""Message to send to destination"_.
+2) the second argument _80_ describes the _up-time_ (alive time or running time of the node).
+3) the _4 th_ argument or the string is the message to the destination.
+4) the _5 th_ argument _15_ is the time after which the node or process starts sending the message to
+the destination.
+5) the remaining arguments instructs the neighboring nodes.
+
+the instruction:
+
+```python
+   $ python node_program.py 2 80 2 1 4 &
+```
+
+creates the process with the node_id _2_ and neighbors _1,4_ that runs as a _router_ that forwards 
+link layer messages to the neighbouring nodes. It also helps determine shortest path.
+
+Running these instructions multiple times with different node_ids, creates a network with nodes and 
+routers. 
+
+
+#### IMPLEMENTATION
+
+The script initially process the input arguments and creates a class object with all the variables and
+then the _main()_ function is then executed. The main function performs the following tasks:
+
+1) initializes the routing table with neighbor nodes. 
+2) executes _network_send()_ function which executes the **RIP** protocol. 
+3) inside the while loop, the main methods checks all the interface channels (text files) for incoming 
+messages which is performed by the method _datalink_receive_from_channel()_. This method receives two types
+of data, 
+    1) _'data'_ messages which are sent to the network layer, if the message is intended for the same node.
+     The method then responds with _ack_ message.```` 
